@@ -1,0 +1,40 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    background-color: aliceblue;
+    text-align: center;
+}
+p{
+    font-size: 25px;
+    color: chocolate;
+    margin-top: 5vh;
+}
+.input-box{
+    margin-top: 3vh;
+    padding: 3px 10px;
+    font-size: 15px;
+    width: 150px;
+    border: 1px solid black;
+    border-radius: 5px;
+}
+
+.submit-btn , .start-game-btn{
+    font-size: 15px;
+    padding: 5px 10px;
+    color: white;
+    background-color: rgb(255, 161, 95);
+    border: 1px solid black;
+    border-radius: 5px;
+    font-weight: 600;
+  margin-top: 3vh;
+  cursor: pointer;
+}
+.result{
+    font-size: 15px;
+}
+.start-game-btn:disabled{
+    cursor: not-allowed;
+}
